@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7B68EE;
+}
+
+.container {
+    display: grid;
+    padding: 3em;
+    grid-gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+strong {
+    color: blueviolet;
+}
+
+.texto {
+    background-color: #9370DB;
+    border: 1px solid black;
+    font-size: 20px;
+
+}
+
+.texto {
+    color: white;
+    padding: 120px;
+    
+    
+}
+
+.texto p {
+    margin-top: 10px;
+}
+
+
+.imagem {
+    border: 1px solid black;
+    width: 540px;
+    height: 446px; 
+    
+}
